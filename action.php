@@ -4,6 +4,7 @@ include 'Cart.php';
 $cart = new Cart;
 
 // include database configuration file
+
 include 'admin/db.php';
 $db=con();
 if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
